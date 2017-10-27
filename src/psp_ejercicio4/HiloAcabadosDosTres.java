@@ -19,9 +19,9 @@ public class HiloAcabadosDosTres extends Thread {
     public void run() {
         for (int i = 2; i <= 1000; i+=10) {
             suma+=i+(i+1);
-            System.out.println("Numeros acabados en 2 o 3: "+suma);
             
-        }
+            
+        }System.out.println("Suma de los numeros acabados en 2 o 3: "+suma);
 
     }
     

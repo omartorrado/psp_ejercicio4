@@ -12,14 +12,15 @@ package psp_ejercicio4;
 public class HiloPares extends Thread {
     
     int suma=0;
+    
 
     @Override
     public void run() {
         for (int i = 2; i <= 1000; i+=2) {
             suma+=i;
-            System.out.println("Pares: "+suma);
             
-        }
+            
+        }System.out.println("Suma de los numeros pares: "+suma);
 
     }
 }

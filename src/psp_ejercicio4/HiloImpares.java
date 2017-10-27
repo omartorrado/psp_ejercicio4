@@ -20,8 +20,8 @@ public class HiloImpares extends Thread {
     public void run() {
         for (int i = 1; i < 1000; i+=2) {
             suma+=i;
-            System.out.println("Impares: "+suma);
             
-        }
+            
+        }System.out.println("Suma de los numeros impares: "+suma);
     }
 }
